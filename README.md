@@ -2,6 +2,8 @@
 
 A robust and secure implementation of RSA asymmetric encryption in Python, providing a clean interface for key generation, encryption, and decryption operations using the `cryptography` library.
 
+This Python implementation provides a robust class-based interface for RSA asymmetric encryption using the cryptography library. The AsymmetricEncryption class handles key pair generation (2048-bit RSA), key serialization/deserialization in PEM format, and message encryption/decryption operations. It implements secure OAEP padding with SHA256 for both the primary hash function and MGF1. The class offers methods for saving and loading keys from files, printing keys in PEM format, and performing encryption/decryption operations. Key features include type hints for better code maintainability, static methods for key operations, and comprehensive documentation. The implementation follows cryptographic best practices but stores private keys unencrypted, which should be modified for production use. The code serves as an educational example and a starting point for implementing asymmetric encryption in Python applications.
+
 ## Features
 
 - 2048-bit RSA key pair generation
